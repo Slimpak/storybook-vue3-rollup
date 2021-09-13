@@ -1,0 +1,83 @@
+.storybook-button {
+  align-items: center;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  padding: 8px 16px;
+  flex-direction: row;
+}
+
+.storybook-button span {
+  margin-left: 8px;
+}
+
+.storybook-button--primary {
+  color: white;
+  background-color: #37A58C;
+}
+
+.storybook-button--primary:hover {
+  color: white;
+  background-color: #267462;
+}
+
+.storybook-button--disabled {
+  opacity: 0.4;
+}
+
+.storybook-button--secondary {
+  background-color: transparent;
+  border: 1px solid #37A58C;
+  color: #37A58C;
+}
+
+.storybook-button--secondary:hover {
+  background-color: transparent;
+  border: 1px solid rgba(38, 116, 98, 1);
+  color: rgba(38, 116, 98, 1);
+}
+
+
+.storybook-button--danger {
+  background-color: #DD0060;
+  border: 1px solid #DD0060;
+  color: #fff;
+}
+
+.storybook-button--danger:hover {
+  background-color: #B1004D;
+  border: 1px solid #B1004D;
+  color: #fff;
+}
+
+.storybook-button--ghost {
+  background-color: transparent;
+  color: #000000;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.storybook-button--ghost:hover {
+  background-color: transparent;
+  color: #267462;
+} 
+
+.storybook-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.storybook-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.storybook-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
